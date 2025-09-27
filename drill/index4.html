@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Average Finder</title>
+
+
+  <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+  <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input, button {
+      margin: 8px;
+      padding: 6px;
+      font-size: 14px;
+    }
+    #result {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Simple Average Finder</h1>
+
+  <input id="score1" type="number" min="0" max="100" placeholder="Score 1">
+  <input id="score2" type="number" min="0" max="100" placeholder="Score 2">
+  <br>
+  <button id="compute">Compute</button>
+
+  <p id="result">Result will appear here.</p>
+
+
+  <py-script src="main4.py"></py-script>
+</body>
+</html>
